@@ -1,0 +1,9 @@
+:root {
+    --shadows-gradient-position: center;
+    --shadows-gradient-primary-color: unset;
+    --shadow-style: radial-gradient(circle farthest-corner at var(--shadows-gradient-position), transparent 0%, var(--shadows-gradient-primary-color) 100%);
+}
+
+.hover-effect {
+    background-attachment: fixed;
+}

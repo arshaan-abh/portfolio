@@ -1,0 +1,8 @@
+:root {
+    --gradient-position: center;
+}
+
+.hover-effect {
+    background-attachment: fixed;
+    background-image: radial-gradient(circle farthest-corner at var(--gradient-position), var(--gradient-secondary-color) 0%, var(--gradient-primary-color) 100%);
+}
